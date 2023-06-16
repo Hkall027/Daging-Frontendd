@@ -1,0 +1,1565 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .position-relative {
+    position: relative;
+  }
+
+  #top-nav {
+    transition: 1s;
+  }
+
+  .count-frame-lovepik-1 {
+    position: absolute;
+    text-align: center;
+    bottom: 475px;
+    margin-left: 980px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .count-frame-lovepik-2 {
+    position: absolute;
+    text-align: center;
+    bottom: -515px;
+    margin-left: 980px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .count-frame-daun-1 {
+    position: absolute;
+    text-align: center;
+    bottom: -60px;
+    margin-left: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .count-frame-daun-2 {
+    position: absolute;
+    text-align: center;
+    bottom: 190px;
+    margin-left: 1248px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .count-frame-daun-testimonial-1 {
+    position: absolute;
+    text-align: center;
+    bottom: -80px;
+    margin-left: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .count-frame-daun-testimonial-2 {
+    position: absolute;
+    text-align: center;
+    bottom: 220px;
+    margin-left: 1248px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .icon-frame-lovepik {
+    width: 600px;
+    height: 600px;
+    margin-top: -14px;
+  }
+
+  .icon-frame-daun {
+    width: 100%;
+    height: 368px;
+    /* margin-top: -14px; */
+  }
+
+  .icon-frame-daun-testimonial {
+    width: 100%;
+    height: 368px;
+    /* margin-top: -14px; */
+  }
+
+  .text-decoration-line-through {
+    text-decoration: line-through;
+  }
+
+  .text-decoration-none {
+    text-decoration: none;
+  }
+
+  .justify-content-end {
+    justify-content: end;
+  }
+
+  .line-height-87 {
+    line-height: 87px;
+  }
+
+  .font-style-italic {
+    font-style: italic;
+  }
+
+  /* open component utils web */
+.margin-web {
+    margin-top: 50px;
+  }
+  
+  .margin-top-web-1 {
+    margin-top: 100px;
+  }
+  
+  .margin-top-web-2 {
+    margin-top: 170px;
+  }
+  
+  .margin-top-web-3 {
+    margin-top: 200px;
+  }
+
+  .margin-top-web-4 {
+    margin-top: 500px;
+  }
+  /* close component utils web */
+
+  /* Open Style Heading */
+  .heading-text-h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px !important;
+  }
+  
+  .heading-text-h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 58px !important;
+  }
+  
+  .heading-text-h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 54px !important;
+  }
+  
+  .heading-text-h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px !important;
+  }
+  
+  .heading-text-h5 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 42px !important;
+  }
+  
+  .heading-text-h6 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 38px !important;
+  }
+
+  .heading-text-one-40 {
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .heading-text-one-32 {
+    font-size: 32px;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .heading-text-one-30 {
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .heading-text-two-26 {
+    font-size: 26px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .heading-text-three-24 {
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .heading-text-four-20 {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .heading-text-five-18 {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .heading-text-one-16 {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .heading-text-six-14 {
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+  }
+   /* Close Style Heading */
+
+   /* Open Style Paragraf */
+   .paragraph-text-18 {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .paragraph-text-10 {
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+  }
+
+   .paragraph-text-one {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .paragraph-text-two {
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .paragraph-text-three {
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .paragraph-text-four {
+    font-size: 11px;
+    font-family: 'Poppins', sans-serif;
+  }
+  /* Close Style Paragraf */
+
+
+  /* Open Style Font Wight */
+  .f-w-800 {
+    font-weight: 800;
+    margin-bottom: 0px;
+  }
+
+  .f-w-700 {
+    font-weight: 700;
+    margin-bottom: 0px;
+  }
+  
+  .f-w-600 {
+    font-weight: 600;
+    margin-bottom: 0px;
+  }
+  
+  .f-w-500 {
+    font-weight: 500;
+    margin-bottom: 0px;
+  }
+  
+  .f-w-400 {
+    font-weight: 400;
+    margin-bottom: 0px;
+  }
+  
+  .f-w-300 {
+    font-weight: 300;
+    margin-bottom: 0px;
+  }
+  /* Close Style Font Wight */
+
+  /*==================== OPEN STYLE COLOR ====================*/
+  /* OPEN COLOR PRIMARY */
+  .app-primary-0 {
+    color: #7C0000;
+  }
+
+  .app-primary-20 {
+    color: #F79327;
+  }
+  /* CLOSE COLOR PRIMARY */
+
+  /* OPEN COLOR BASE */
+  .app-base-0 {
+    color: #FFFFFF;
+  }
+
+  .app-base-20 {
+    color: #F9F9F9;
+  }
+
+  .app-base-40 {
+    color: #F2F2F2;
+  }
+  /* CLOSE COLOR BASE */
+
+  /* OPEN COLOR SECONDARY*/
+  .app-secondary-0 {
+    color: #838383;
+  }
+
+  .app-secondary-20 {
+    color: #6C6C6C;
+  }
+
+  .app-secondary-40 {
+    color: #EDEDED;
+  }
+
+  .app-secondary-60 {
+    color: #848484;
+  }
+
+  .app-secondary-80 {
+    color: #8D8D8D;
+  }
+
+  .app-secondary-100 {
+    color: #A5A5A5;
+  }
+  /* CLOSE COLOR SECONDARY*/
+
+  /* OPEN COLOR TEXT */
+  .app-text-0 {
+    color: #000;
+  }
+
+  .app-text-20 {
+    color: #292929;
+  }
+
+  .app-text-40 {
+    color: #1E1E1E;
+  }
+  
+  .app-text-60 {
+    color: #555555;
+  }
+  
+  .app-text-80 {
+    color: #7C7C7C;
+  }
+
+  .app-text-100 {
+    color: #B6B6B6;
+  }
+
+  .app-text-120 {
+    color: #424242;
+  }
+
+  .app-text-140 {
+    color: #3D3D3D;
+  }
+
+  .app-text-160 {
+    color: #595959;
+  }
+  /* CLOSE COLOR TEXT */
+
+  /* OPEN COLOR WARNING */
+  .app-warning-0 {
+    color: #FFCB56;
+  }
+
+  .app-warning-20 {
+    color: #FFBC26;
+  }
+
+  .app-warning-40 {
+    color: #FFF9D8;
+  }
+  /* CLOSE COLOR WARNING */
+
+  /* OPEN COLOR ERROR */
+  .app-error-0 {
+    color: #CE0000;
+  }
+
+  .app-error-20 {
+    color: #F80000;
+  }
+
+  .app-error-40 {
+    color: #FE8585;
+  }
+
+  .app-error-60 {
+    color: #FEE9E9;
+  }
+  /* CLOSE COLOR ERROR */
+
+  /* OPEN COLOR SUCCESS */
+  .app-success-0 {
+    color: #0B9444;
+  }
+
+  .app-success-20 {
+    color: #1EEB4B;
+  }
+  
+  .app-success-40 {
+    color: #D2FFDC;
+  }
+
+  .app-success-60 {
+    color: #005F1A;
+  }
+
+  .app-success-80 {
+    color: #0E9347;
+  }
+  /* CLOSE COLOR SUCCESS */
+  /*==================== CLOSE STYLE COLOR ====================*/
+
+  /*==================== OPEN STYLE GROP MORE IN BLOG ====================*/
+  .grop-link-more {
+    padding: 30px;
+    margin: -120px auto;
+  }
+
+  .link-more {
+    text-decoration: none;
+    margin-top: 50px;
+  }
+  
+  .group-more-in-blog-paket-berkualitas {
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .icon-more {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Font Awesome 5 Free';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    letter-spacing: 0.01em;
+    color: #fff;
+  }
+  /*==================== CLOSE STYLE GROP MORE IN BLOG ====================*/
+
+    /*========= OPEN NAV =========*/
+    .bg-home {
+        width: 100%;
+        height: 700px;
+        background-image: url(../images/home/bg-home.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 80px;
+    }
+
+    .img-logo-nav-home {
+      width: 110px;
+      height: 58px;
+      filter: drop-shadow(0px 4px 16px rgba(135, 0, 0, 0.86));
+    }
+
+    .img-logo-nav {
+      width: 110px;
+      height: 58px;
+    }
+
+    .navbar-nav a.link-active-home {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        color: #fff;
+    }
+
+    .navbar-nav a.link-active {
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      color: #000;
+  }
+
+    .nav-item .nav-link-home {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        color: #fff;
+        margin-right: 50px;
+        text-decoration: none;
+        display: block;
+        padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+      }
+
+      .nav-item .nav-link {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        color: #000;
+        margin-right: 50px;
+        text-decoration: none;
+      }
+
+    .nav-item .nav-link-home:hover {
+        color: #CE0000;
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    .nav-item .nav-link:hover {
+      color: #000;
+      font-size: 16px;
+      font-weight: 700;
+  }
+
+    .nav-item .btn-nav {
+        width: 111px;
+        height: 48px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        padding: 10px;
+        color: #fff;
+        background: #CE0000;
+        border-radius: 8px;
+    }
+
+    .nav-item .btn-nav:hover {
+        color: #fff;
+        background: #CE0000;
+    }
+    /*========= CLOSE NAV =========*/
+    
+/* /+=================================+\ OPEN STYLE CSS HOME LANDING PAGE /+=================================+\ */
+    /*========= OPEN HOME =========*/
+    .grup-btn-home .btn-home {
+        width: 172px;
+        height: 59px;
+        padding: 15px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        color: #FFFFFF;
+        background: #CE0000;
+        box-shadow: 0px 4px 16px rgba(206, 0, 0, 0.36);
+        border-radius: 8px;
+    }
+
+    .grup-btn-home .btn-home:hover {
+      color: #FFFFFF;
+      background: #CE0000;
+       box-shadow: 0px 4px 16px rgba(206, 0, 0, 0.36);
+    }
+    /*========= CLOSE HOME =========*/
+    
+
+    /*========= OPEN PAKET BERKUALITAS =========*/
+    .card-paket-berkualitas {
+        width: 593px;
+        height: 333px;
+        padding: 15px;
+        margin: 10px auto;
+    }
+    
+    .img-paket-berkualitas {
+        width: 563px;
+        height: 303px;
+    }
+    
+    /*========= CLOSE PAKET BERKUALITAS =========*/
+
+
+    /*========= OPEN PRODUK TERLARIS =========*/
+    .card-produk-terlari {
+        width: 270px;
+        height: 343px;
+        padding: 10px;
+        margin: 15px auto;
+        background: #ffffff;
+        box-shadow: 1px 3px 20px 5px rgba(204, 204, 204, 0.1);
+        border-radius: 5px;
+    }
+
+    .img-produk-terlari {
+        width: 254px;
+        height: 220px;
+        padding: 0px;
+        margin: 0px auto;
+        border-radius: 3px;   
+    }
+
+    .grup-text-produk-terlari {
+        padding: 9px;
+        margin: 20px auto;
+    }
+
+    .grop-btn-produk-terlaris .btn-produk-terlaris {
+        width: 221px;
+        height: 56px;
+        padding: 15px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        color: #CE0000;
+        border: 1px solid #CE0000;
+        border-radius: 8px;
+    }
+
+    .grop-btn-produk-terlaris .btn-produk-terlaris:hover {
+      color: #CE0000;
+      border: 1px solid #CE0000;
+    }
+    /*========= CLOSE PRODUK TERLARIS =========*/
+    
+    
+    /*========= OPEN TESTIMONIAL =========*/  
+    
+    /*===== OPEN SLIDER CAROUSEL =====*/
+
+    /*===== CLOSE SLIDER CAROUSEL =====*/
+    
+    /*========= CLOSE TESTIMONIAL =========*/
+/* /+=================================+\ CLOSE STYLE CSS HOME LANDING PAGE /+=================================+\ */
+
+
+/* /+=================================+\ OPEN STYLE CSS ABOUT/TENTANG KAMI /+=================================+\ */
+.item-home-carousel-about .img-home-carousel-about {
+  width: 100%;
+  height: 100%;
+  margin-right: 30px;
+}
+
+.count-frame-about-lovepik-1 {
+  position: absolute;
+  text-align: center;
+  bottom: 55px;
+  margin-left: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.icon-frame-lovepik-about-home {
+  width: 100%;
+  height: 710px;
+  margin-top: -14px;
+}
+
+.count-frame-about-daun-1 {
+  position: absolute;
+  text-align: center;
+  bottom: -30px;
+  margin-left: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.count-frame-about-daun-2 {
+  position: absolute;
+  text-align: center;
+  bottom: 70px;
+  margin-left: 1280px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.icon-frame-daun-about-home {
+  width: 100%;
+  height: 368px;
+  margin-top: -14px;
+}
+
+.card-about-daging {
+  width: 279px;
+  height: 322px;
+  padding: 10px;
+  margin: 15px auto;
+  background: #FFFFFF;
+  box-shadow: 4px 8px 26px rgba(141, 141, 141, 0.15);
+  border-radius: 20px;
+}
+
+.grop-text-card-about {
+  padding: 10px;
+  margin: 15px auto;
+  text-align: center;
+}
+
+.img-card-about {
+  width: 92px;
+  height: 92px;
+  margin: 15px auto;
+}
+
+.grup-text-about-menyediakan-daging-sapi {
+  margin: 100px auto;
+}
+
+.grup-text-mendorong-industri-daging-di-indonesia {
+  margin: 200px auto;
+}
+
+.bg-penasaran-sama-produk-kami {
+  width: 100%;
+  height: 100%;
+  background: #CE0000;
+}
+
+.grup-text-penasaran-sama-produk-kami {
+  padding: 25px;
+  /* margin: 20px auto; */
+}
+
+.grup-text-penasaran-sama-produk-kami .btn-about-shop-now {
+  width: 212px;
+  height: 59px;
+  padding: 15px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  color: #CE0000;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 16px rgba(206, 0, 0, 0.36);
+  border-radius: 8px;
+}
+
+.grup-text-penasaran-sama-produk-kami .btn-about-shop-now:hover {
+  color: #CE0000;
+  background: #FFFFFF;
+}
+
+.grup-text-penasaran-sama-produk-kami .btn-about-contact-cs {
+  width: 224px;
+  height: 59px;
+  padding: 13px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  color: #FFFFFF;
+  border: 4px solid #FFFFFF;
+  filter: drop-shadow(0px 4px 16px rgba(206, 0, 0, 0.36));
+  border-radius: 8px;
+}
+
+.grup-text-penasaran-sama-produk-kami .btn-about-contact-cs:hover {
+  color: #FFFFFF;
+  border: 4px solid #FFFFFF;
+}
+
+.count-image-1 {
+  width: 96px;
+  position: absolute;
+  text-align: center;
+  bottom: -122px;
+  margin-left: 0px;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  }
+
+.count-image-2 {
+  width: 96px;
+  position: absolute;
+  text-align: center;
+  bottom: -124px;
+  margin-left: 150px;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  }
+
+.count-image-3 {
+  width: 96px;
+  position: absolute;
+  text-align: center;
+  bottom: -124px;
+  margin-left: 300px;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  }
+
+.accordion-cs {
+  --bs-accordion-bg: none !important;
+  background: #FFFFFF !important;
+  border: 2px solid #BBBBBB !important;
+  border-radius: 8px !important;
+  }
+
+.accordion-button {
+  font-family: 'Poppins' !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  line-height: 161.5% !important;
+  color: #000000 !important;
+}
+
+.bg-terpercaya-oleh {
+  width: 100%;
+  height: 150px;
+  background: rgba(206, 0, 0, 0.1);
+}
+
+.img-carousel-about-deket-footer {
+  width: 10%;
+  height: 150px;
+}
+
+.menyediakan-daging-sapi {
+  margin-left: -144px;
+}
+
+/*=== OPEN CSS CAROUSEL ===*/
+.owl-nav > div {
+  margin-top: -26px;
+  position: absolute;
+  top: 50%;
+  color: #cdcbcd;
+}
+
+.owl-nav i {
+  font-size: 52px;
+}
+
+.owl-nav .owl-prev {
+  left: -30px;
+}
+
+.owl-nav .owl-next {
+  right: -30px;
+}
+/* open carausel kecil */
+/*=== CLOSE CSS CAROUSEL ===*/
+/* /+=================================+\ CLOSE STYLE CSS ABOUT/TENTANG KAMI /+=================================+\ */
+
+/* /+=================================+\ OPEN STYLE CSS BLOG/DETAIL BLOG /+=================================+\ */
+.card-blog-daging {
+  width: 333px;
+  height: 388px;
+  /* padding: 10px; */
+  margin: 10px auto;
+  background: #FFFFFF;
+  box-shadow: 5px 5px 30px rgba(123, 123, 123, 0.1);
+  border-radius: 15px;
+}
+
+.img-card-blog {
+  width: 333px;
+  height: 250px;
+  border-radius: 15px 15px 0px 0px;  
+}
+
+.grup-text-card-blog {
+  padding: 15px;
+  margin: 5px auto;
+}
+
+.grup-text-detail-blog {
+  padding: 40px;
+  margin: 10px auto;
+}
+
+.grup-btn-blog-detail .btn-blog-detail {
+  width: 176px;
+  height: 56px;
+  padding: 10px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #7C7C7C;
+  background: #EFEFEF;
+  border: 1px solid #A6A6A6;
+  border-radius: 12px;
+}
+
+.grup-btn-blog-detail .btn-blog-detail:hover {
+  color: #7C7C7C;
+  background: #EFEFEF;
+  border: 1px solid #A6A6A6;
+}
+
+.hr-detail-blog {
+  width: 100%;
+  border: 2.5px solid #E6E6E6;
+}
+
+.text-decoration-none-card {
+  text-decoration: none;
+}
+
+.grup-btn-blog-detail-kirim-komentar {
+  text-align: right;
+}
+
+.grup-btn-blog-detail-kirim-komentar .btn-blog-detail-kirim-komentar {
+  width: 206px;
+  height: 61px;
+  padding: 15px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  color: #FFFFFF;
+  background: #CE0000;
+  box-shadow: 0px 4px 16px rgba(206, 0, 0, 0.36);
+  border-radius: 8px;
+}
+
+.grup-btn-blog-detail-kirim-komentar .btn-blog-detail-kirim-komentar:hover {
+  color: #FFFFFF;
+  background: #CE0000;
+  box-shadow: 0px 4px 16px rgba(206, 0, 0, 0.36);
+}
+
+/*==== OPEN PAGINATION ====*/
+.pagination {
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+  font-weight: 500;
+  justify-content: center;
+}
+
+.page-item {
+  margin: 10px;
+}
+
+#page-link-item {
+  border-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-top-left-radius: 50px;
+  color: #FFFFFF;
+}
+
+.page-item .page-link {
+  width: 45px;
+  height: 45px;
+  padding: 12px;
+  /* border-radius: 5px; */
+  border: none;
+  justify-content: center;
+}
+
+.page-item-bulat .page-link-bulat {
+  width: 50px;
+  height: 50px;
+}
+
+.page-link {
+  position: relative;
+  display: block;
+  color: #0d6efd;
+  text-decoration: none;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.page-link {
+  background: linear-gradient(70.2deg, #CE0000 11.46%, #CE0000 67.19%);
+}
+
+.page-item:not(:first-child) .page-link {
+  margin-left: -1px;
+}
+
+/* .active-paginate-cs a {
+  background: linear-gradient(70.2deg, #004F6A 11.46%, #0083B0 67.19%);
+} */
+
+#page-link-number {
+  background: none;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  color: #CE0000;
+
+  /* background: linear-gradient(70.2deg, #004F6A 11.46%, #0083B0 67.19%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent; */
+  /* border-color: #004F6A; */
+  border-radius: 5px;
+}
+
+.page-item {
+  width: 37px;
+  border-radius: 2px;
+  padding: 6px 13px;
+  /* gap: 5px; */
+}
+
+/*==== OPEN STYLE TEXT DIPOTONG ====*/
+.text-sepotong {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+/*==== CLOSE STYLE TEXT DIPOTONG ====*/
+/*==== CLOSE PAGINATION ====*/
+/* /+=================================+\ CLOSE STYLE CSS BLOG/DETAIL BLOG /+=================================+\ */
+
+/* /+=================================+\ OPEN STYLE CSS PRODUK/PRODUK DETAIL/PRE ORDER /+=================================+\ */
+.grup-btn-pop .btn-pop {
+  width: 200px;
+  height: 56px;
+  padding: 15px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #FFFFFF;
+  background: #CE0000;
+  box-shadow: 10px 10px 40px rgba(128, 128, 128, 0.1);
+  border-radius: 5px;
+}
+
+.kart-container {
+  text-align: center;
+  }
+
+  .kategori-kart {
+  width: 265px;
+  height: 82px;
+  padding: 10px;
+  margin: 20px auto;
+  background: #FFFFFF;
+  box-shadow: 1px 3px 20px 5px rgba(204, 204, 204, 0.1);
+  border-radius: 5px;
+  box-shadow: 1px 1px 15px rgba(45,62,80,0.3);
+  display: inline-block;
+  }
+
+  .kategori-kart:hover {
+    background: #CE0000;
+    transform: translateY(-10px);
+    transition: 0.1s ease-in-out;
+    box-shadow: 1px 3px 20px 5px rgba(29, 29, 29, 0.26);
+    border-radius: 5px; 
+  }
+
+  /* .kategori-kart.active {
+    transform: translateY(-5px);
+    background: #CE0000;
+    box-shadow: 1px 3px 20px 5px rgba(29, 29, 29, 0.26);
+    border-radius: 5px;
+  }
+
+  .kategori-kart:after {
+    content: " ";
+    position: absolute;
+    left: 50%;
+    opacity: 0;
+    margin: 0 auto;
+    bottom: 0px;
+    background: #CE0000;
+    transform: translateY(-10px);
+    transition: 0.1s ease-in-out;
+    box-shadow: 1px 3px 20px 5px rgba(29, 29, 29, 0.26);
+    border-radius: 5px; 
+  }
+
+  .kategori-kart.active:after {
+    content: " ";
+    position: absolute;
+    left: 50%;
+    opacity: 0;
+    margin: 0 auto;
+    bottom: 0px;
+    transform: translateY(-10px);
+    background: #CE0000;
+    box-shadow: 1px 3px 20px 5px rgba(29, 29, 29, 0.26);
+    border-radius: 5px; 
+  } */
+
+  .kart-ikon {
+    width: 76px;
+    height: 56px;
+  margin: 5px auto;
+  padding-left: 10px;
+  }
+
+  .ico {
+    display: flex;
+    margin-left: 0px;
+  }
+
+  .grup-text {
+    text-align: left;
+    padding: 3px;
+    margin: 10px auto;
+  }
+
+  @media (max-width:450px){
+  .kategori-kart {
+    min-width: 300px;
+  }
+  }
+
+  .search-container{
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+  }
+  
+  input#search-bar{
+    margin: 0 auto;
+    width: 824px;
+    height: 56px;
+    padding: 0 50px;
+    font-size: 1rem;
+    border: none;
+    background: #F2F2F2;
+    border-radius: 5px;
+    outline: none;
+    &:focus{
+      border: none;
+      transition: 0.35s ease;
+      color: #6C6C6C;
+      &::-webkit-input-placeholder{
+        transition: opacity 0.45s ease; 
+        opacity: 0;
+       }
+      &::-moz-placeholder {
+        transition: opacity 0.45s ease; 
+        opacity: 0;
+       }
+      &:-ms-placeholder {
+       transition: opacity 0.45s ease; 
+       opacity: 0;
+       }    
+     }
+   }
+  
+  .search-icon{
+    position: relative;
+    float: left;
+    width: 23px;
+    height: 23px;
+    top: 18px;
+    left: -795px;
+  }
+
+  .grup-text-produk-detail {
+    padding: 25px;
+    margin: 100px auto;
+  }
+
+  .form-control-detail-produk {
+    width: 418px !important;
+    height: 98px !important;
+  }
+
+  .form-control-modal-produk-detail {
+    height: 158px !important;
+  }
+
+  .form-select  {
+    height: 60px !important;
+  }
+
+  .grup-btn-produk-detail-pro-order-and-chat-wa .btn-pre-order {
+    width: 196px;
+    height: 54px;
+    padding: 15px;
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    color: #FFFFFF;
+    background: #D41F1F;
+    border-radius: 5px;
+  }
+
+
+  .grup-btn-produk-detail-pro-order-and-chat-wa .btn-pre-order:hover {
+    color: #FFFFFF;
+    background: #D41F1F;
+  }
+
+  .grup-btn-produk-detail-pro-order-and-chat-wa .btn-chat-via-wa {
+    width: 307px;
+    height: 54px;
+    padding: 15px;
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    color: #FFFFFF;
+    background: #55CD6C;
+    border-radius: 5px;
+  }
+
+
+  .grup-btn-produk-detail-pro-order-and-chat-wa .btn-chat-via-wa:hover {
+    color: #FFFFFF;
+    background: #55CD6C;
+  }
+
+/* /+=================================+\ CLOSE STYLE CSS PRODUK/PRODUK DETAIL/PRE ORDER /+=================================+\ */
+
+/* /+=================================+\ OPEN STYLE CSS TENTIMONIAL /+=================================+\ */
+.form-control-testimonial-cs {
+  font-family: 'Poppins' !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  color: #A5A5A5 !important;
+}
+
+.grup-btn-komentar-testimonial {
+  text-align: right;
+}
+
+.grup-btn-komentar-testimonial .btn-komentar-testimonial{
+  width: 206px;
+  height: 61px;
+  padding: 15px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  color: #FFFFFF;
+  background: #CE0000;
+  box-shadow: 0px 4px 16px rgba(206, 0, 0, 0.36);
+  border-radius: 8px;
+}
+
+.grup-btn-komentar-testimonial .btn-komentar-testimonial:hover {
+  color: #FFFFFF;
+  background: #CE0000;
+  box-shadow: 0px 4px 16px rgba(206, 0, 0, 0.36);
+}
+/* /+=================================+\ CLOSE STYLE CSS TENTIMONIAL /+=================================+\ */
+
+/* /+=================================+\ OPEN STYLE CSS KONTAK /+=================================+\ */
+.img-kontak {
+  width: 100%;
+  height: 100%;
+}
+
+.grup-btn-page-kontak .btn-page-kontak {
+  width: 100%;
+  height: 56px;
+  padding: 15px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  color: #FFFFFF;
+  background: #CE0000;
+  border-radius: 5px;
+}
+
+.grup-btn-page-kontak .btn-page-kontak:hover {
+  color: #FFFFFF;
+  background: #CE0000;
+}
+
+.form-control-cs {
+  font-family: 'Poppins' !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  line-height: 161.5% !important;
+  color: #BBBBBB !important;
+}
+
+.icon-kontak-modal {
+  width: 203px;
+  height: 203px;
+}
+
+.modal-content-kontak {
+  width: 543px;
+  height: 421px;
+  background: #FFFFFF;
+  box-shadow: 4px 4px 38px rgba(153, 153, 153, 0.12);
+  border-radius: 16px;
+}
+
+.modal-content-pre-order {
+  width: 489px;
+  height: 100%;
+  background: #FFFFFF;
+  box-shadow: 4px 4px 38px rgba(153, 153, 153, 0.12);
+  border-radius: 16px;
+}
+
+.grup-btn-modal-pre-order .btn-modal-pre-order {
+  width: 429px;
+  height: 56px;
+  padding: 15px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  color: #FFFFFF;
+  background: #CE0000;
+  border-radius: 5px;
+}
+
+.grup-btn-modal-pre-order .btn-modal-pre-order:HOVER {
+  color: #FFFFFF;
+  background: #CE0000;
+}
+/* /+=================================+\ CLOSE STYLE CSS KONTAK /+=================================+\ */
+
+        
+        
+/* ================================= OPEN FOOTER =================================*/
+.site-footer {
+    background: #7C0000;
+    padding: 45px 0 20px;
+    font-size: 15px;
+    line-height: 24px;
+    color: #fff;
+  }
+  
+  .footer-links {
+    padding-left: 0;
+    list-style: none;
+  }
+  
+  .footer-links li {
+    display: block;
+    margin-top: 15px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+  }
+  
+  .footer-links li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .footer-links li a:hover {
+    transition: 0.5s;
+    text-decoration: none;
+    color: #ffd600;
+    font-weight: bold;
+  }
+  
+  .footer-links li a:active,
+  .footer-links li a:focus,
+  .footer-links li a:hover {
+    transition: 0.5s;
+    text-decoration: none;
+    color: #FE8585;
+    font-weight: bold;
+  }
+  
+  .footer-links.inline li {
+    display: inline-block;
+  }
+  
+  .site-footer .social-icons {
+    text-align: right;
+  }
+  
+  .copyright-text {
+    margin: 0;
+    color: #fff;
+  }
+
+  .sosmed-footer {
+    width: 26px;
+    height: 26px;
+  }
+  
+  @media (max-width: 991px) {
+    .site-footer [class^="col-"] {
+      margin-bottom: 30px;
+    }
+  
+    .width-text-footer {
+      width: 100%;
+    }
+  }
+  @media (max-width: 767px) {
+    .width-text-footer {
+      width: 100%;
+    }
+  
+    .site-footer {
+      padding-bottom: 0;
+    }
+    .site-footer .copyright-text,
+    .site-footer .social-icons {
+      text-align: center;
+    }
+  }
+  /* .social-icons {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+  } */
+  .social-icons li {
+    display: inline-block;
+  }
+  /* .social-icons li.title {
+    margin-right: 15px;
+    color: #96a2b2;
+    font-weight: 700;
+    font-size: 13px;
+  } */
+  .social-icons a {
+    margin-right: 8px;
+  }
+  
+  /* .social-icons.size-sm a {
+    line-height: 34px;
+    height: 34px;
+    width: 34px;
+    font-size: 14px;
+  } */
+  
+  @media (max-width: 767px) {
+    .width-text-footer {
+      width: 100%;
+    }
+  
+    /* .social-icons li.title {
+      display: block;
+      margin-right: 0;
+      font-weight: 600;
+    } */
+  }
+  /* close footer style */
+
+  /* ================================= OPEN RESPONSIVE MEDIA SCREEN =================================*/
+  @media only screen and (max-width: 767px) {
+    .card-paket-berkualitas {
+      width: 100%;
+    }
+
+    .card-produk-terlari {
+      width: 100%;
+    }
+
+    .img-produk-terlari {
+      width: 100%;
+    }
+    
+    .img-paket-berkualitas {
+      width: 100%;
+    }
+
+    .icon-frame-lovepik {
+      display: none   
+    }
+
+    .icon-frame-daun {
+      display: none   
+    }
+
+    .owl-nav .owl-prev {
+      left: 0px;
+    }
+
+    .owl-nav .owl-next {
+      right: 0px;
+    }
+
+    .icon-frame-lovepik-about-home {
+      display: none;
+    }
+    
+    .card-about-daging {
+      width: 100%;
+      height: 100%;
+    }
+
+    .menyediakan-daging-sapi {
+      margin-left: -12px;
+    }
+
+    .icon-frame-daun-testimonial {
+      display: none;
+    }
+
+    .grup-text-detail-produk-berat-terjual-stok {
+      text-align: center;
+    }
+
+    .form-control-detail-produk {
+      width: 100% !important;
+    }
+
+    .grup-btn-produk-detail-pro-order-and-chat-wa .btn-pre-order {
+      width: 100%;
+    }
+
+    .grup-btn-produk-detail-pro-order-and-chat-wa .btn-chat-via-wa  {
+      width: 100%;
+    }
+
+    /* ==== OPEN RESPONSIVE PAGINATION ====*/
+    .search-container {
+      width: 100%;
+      display: block;
+    }
+
+    input#search-bar {
+      width: 100%;
+    }
+    /* ==== OPEN RESPONSIVE PAGINATION ====*/
+
+    /* ==== OPEN RESPONSIVE PAGINATION ====*/
+    .page-item {
+      padding: 0px;
+    }
+    /* ==== CLOSE RESPONSIVE PAGINATION ====*/
+
+    .modal-content-kontak {
+      width: 100%;
+      height: 100%;
+    }
+
+    /*===== TEXT CENTER RESPONSIVE =====*/
+    .text-center-responsive{
+      text-align: center;
+    }
+    /*===== TEXT CENTER RESPONSIVE =====*/
+  }
+
+  @media screen and (min-width: 767px) and (max-width: 1399px) {
+    .grup-text-produk-detail {
+      text-align: center;
+    }
+
+    .grup-btn-produk-detail-pro-order-and-chat-wa {
+      text-align: center;
+    }
+
+    .grup-text-description-and-form-control-detail-produk {
+      text-align: center; 
+    }
+
+    .form-control-detail-produk  {
+      width: 100% !important;
+    }
+
+    .text-center-responsive-detail-produk {
+      text-align: center;
+    }
+
+    .grup-btn-produk-detail-pro-order-and-chat-wa .btn-pre-order {
+      width: 100%;
+    }
+
+    .grup-btn-produk-detail-pro-order-and-chat-wa .btn-chat-via-wa  {
+      width: 100%;
+    }
+  }

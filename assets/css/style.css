@@ -181,6 +181,11 @@
     font-size: 24px;
     font-family: 'Poppins', sans-serif;
   }
+
+  .heading-text-22 {
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+  }
   
   .heading-text-four-20 {
     font-size: 20px;
@@ -914,6 +919,26 @@
   box-shadow: 0px 4px 16px rgba(206, 0, 0, 0.36);
 }
 
+.accordion-button {
+  font-family: 'Poppins' !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 18px !important;
+  color: #000000 !important;
+}
+
+.img-icon-blog-detail-cat {
+  width: 76px;
+  height: 76px;
+}
+
+
+.form-control-cs-detail-blog {
+  width: 100% !important;
+  height: 98px !important;
+  border: 1px solid #E6E6E6 !important;
+  border-radius: 2px !important;
+}
 /*==== OPEN PAGINATION ====*/
 .pagination {
   display: flex;
@@ -1505,6 +1530,20 @@
       width: 100%;
     }
 
+    .card-blog-daging  {
+      width: 100%;
+      height: 100%;
+    }
+
+    .img-card-blog {
+      width: 100%;
+    }
+
+    .grup-text-card-blog {
+      padding: 10px;
+      margin: auto;
+    }
+
     /* ==== OPEN RESPONSIVE PAGINATION ====*/
     .search-container {
       width: 100%;
@@ -1552,6 +1591,10 @@
     }
 
     .text-center-responsive-detail-produk {
+      text-align: center;
+    }
+
+    .text-center-responsive-tablet {
       text-align: center;
     }
 

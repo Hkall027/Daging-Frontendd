@@ -713,8 +713,8 @@
 }
 
 .grup-text-penasaran-sama-produk-kami {
-  padding: 25px;
-  /* margin: 20px auto; */
+  padding: 50px;
+  padding-top: 100px;
 }
 
 .grup-text-penasaran-sama-produk-kami .btn-about-shop-now {
@@ -814,6 +814,20 @@
 
 .menyediakan-daging-sapi {
   margin-left: -144px;
+}
+
+.count-image-loveik-youtube {
+  position: absolute;
+  text-align: center;
+  bottom: 0px;
+  margin-left: 1233px;
+  padding-top: 20px;
+  padding-bottom: 0px;
+}
+
+.img-loveik-about-youtube {
+  width: 350px;
+  height: 528px;
 }
 
 /*=== OPEN CSS CAROUSEL ===*/

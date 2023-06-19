@@ -587,6 +587,13 @@
         border-radius: 5px;
     }
 
+    .card-produk-terlari:hover{
+      transform: translateY(-10px);
+      transition: 0.1s ease-in-out;
+      background: #ffffff;
+      box-shadow: 1px 3px 20px 5px rgba(29, 29, 29, 0.26);
+    }
+
     .img-produk-terlari {
         width: 254px;
         height: 220px;
@@ -808,7 +815,7 @@
 }
 
 .img-carousel-about-deket-footer {
-  width: 10%;
+  width: 50% !important;
   height: 150px;
 }
 
@@ -823,6 +830,10 @@
   margin-left: 1233px;
   padding-top: 20px;
   padding-bottom: 0px;
+}
+
+.grup-section-youtube {
+  display: flex;
 }
 
 .img-loveik-about-youtube {
@@ -1077,9 +1088,9 @@
   }
 
   .kategori-kart:hover {
-    background: #CE0000;
     transform: translateY(-10px);
     transition: 0.1s ease-in-out;
+    background: #CE0000;
     box-shadow: 1px 3px 20px 5px rgba(29, 29, 29, 0.26);
     border-radius: 5px; 
   }
@@ -1536,6 +1547,10 @@
       width: 100% !important;
     }
 
+    .img-carousel-about-deket-footer {
+      width: 100% !important;
+    }
+
     .grup-btn-produk-detail-pro-order-and-chat-wa .btn-pre-order {
       width: 100%;
     }
@@ -1558,6 +1573,25 @@
       margin: auto;
     }
 
+    .grup-section-youtube {
+      display: block;
+    }
+
+    .img-loveik-about-youtube {
+      display: none;
+    }
+
+    .icon-frame-daun-about-home {
+      display: none;
+    }
+    
+    .grup-text-penasaran-sama-produk-kami .btn-about-shop-now {
+      width: 100%;
+    }
+
+    .grup-text-penasaran-sama-produk-kami .btn-about-contact-cs {
+      width: 100%;
+    }
     /* ==== OPEN RESPONSIVE PAGINATION ====*/
     .search-container {
       width: 100%;
@@ -1585,6 +1619,12 @@
       text-align: center;
     }
     /*===== TEXT CENTER RESPONSIVE =====*/
+
+    /*====== RESPONSIVE JUSTIFY ======*/
+    .text-justify-content-center {
+      justify-content: center!important;
+    }
+    /*====== RESPONSIVE JUSTIFY ======*/
   }
 
   @media screen and (min-width: 767px) and (max-width: 1399px) {
@@ -1619,4 +1659,42 @@
     .grup-btn-produk-detail-pro-order-and-chat-wa .btn-chat-via-wa  {
       width: 100%;
     }
+
+    .icon-frame-lovepik {
+      display: none;
+    }
+
+    .img-loveik-about-youtube {
+      display: none;
+    }
+
+    .icon-frame-daun-about-home {
+      display: none;
+    }
+
+    .menyediakan-daging-sapi {
+      margin-left: -36px;
+    }
+
+    .grup-text-about-menyediakan-daging-sapi  {
+      margin: auto;
+    }
+
+    .grup-text-mendorong-industri-daging-di-indonesia {
+      margin: auto;
+    }
+
+    .grup-text-penasaran-sama-produk-kami {
+      padding-top: 0px;
+    }
+
+    .img-youtube {
+      height: 570px;
+    }
+
+    /*====== RESPONSIVE JUSTIFY ======*/
+    .text-justify-content-center {
+      justify-content: center!important;
+    }
+    /*====== RESPONSIVE JUSTIFY ======*/
   }

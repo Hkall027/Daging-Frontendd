@@ -85,6 +85,11 @@
     .form-control-testimonial-cs {
         width: 100%;
     }
+
+    .shadow-effect {
+        padding-top: 25px !important;
+        padding: 1px;
+      }
 }
 
 @media screen and (min-width: 767px) and (max-width: 1399px) {

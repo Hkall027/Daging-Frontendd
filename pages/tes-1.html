@@ -3,79 +3,112 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TES SEARCH</title>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
 
+
+  <title>Document</title>
   <style>
-    .search-container{
-      width: 50%;
-      display: block;
-      margin: 0 auto;
-    }
-    
-    input#search-bar{
-      margin: 0 auto;
-      width: 824px;
-      height: 56px;
-      padding: 0 50px;
-      font-size: 1rem;
-      border: none;
-      background: #F2F2F2;
-      border-radius: 5px;
-      outline: none;
-      &:focus{
-        border: none;
-        transition: 0.35s ease;
-        color: #6C6C6C;
-        &::-webkit-input-placeholder{
-          transition: opacity 0.45s ease; 
-          opacity: 0;
-         }
-        &::-moz-placeholder {
-          transition: opacity 0.45s ease; 
-          opacity: 0;
-         }
-        &:-ms-placeholder {
-         transition: opacity 0.45s ease; 
-         opacity: 0;
-         }    
-       }
-     }
-    
-    .search-icon{
-      position: relative;
-      float: left;
-      width: 23px;
-      height: 23px;
-      top: -40px;
-      left: 15px;
-    }
-    
-    .grup-btn-pop .btn-pop {
-      width: 200px;
-      height: 56px;
-      padding: 10px;
-      font-family: 'Poppins';
-      font-style: normal;
-      font-weight: 600;
-      font-size: 16px;
-      color: #FFFFFF;
-      background: #CE0000;
-      box-shadow: 10px 10px 40px rgba(128, 128, 128, 0.1);
-      border-radius: 5px;
-    }
-    
-  </style>
 
+#tile-1 .tab-pane
+{
+  padding:15px;
+  height:80px;
+}
+#tile-1 .nav-tabs
+{
+  position:relative;
+  border:none!important;
+  background-color:#fff;
+  border-radius:6px;
+}
+#tile-1 .nav-tabs li
+{
+  margin:0px!important;
+}
+#tile-1 .nav-tabs li a
+{
+  position:relative;
+  margin-right:0px!important;
+  padding: 20px 40px!important;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  color: #B6B6B6;
+  border:none!important;
+}
+#tile-1 .nav-tabs a:hover
+{
+  background-color:#fff!important;
+  border:none;
+}
+#tile-1 .slider
+{
+  display:inline-block;
+  width:30px;
+  height:4px;
+  border-radius:3px;
+  background-color:#CE0000;
+  position:absolute;
+  z-index:1200;
+  bottom:0;
+  transition:all .4s linear;
+  
+}
+#tile-1 .nav-tabs .active
+{
+  background-color:transparent!important;
+  border:none!important;
+  color:#CE0000!important;
+}
+  </style>
 </head>
 <body>
   
-  <form class="search-container">
-    <input type="text" id="search-bar" placeholder="Cari...">
-    <a href="#"><img class="search-icon" src="../assets/images/produk/icon-produk-search.png"></a>
-  </form>
-  <div class="grup-btn-pop">
-    <a href="" class="btn btn-pop" role="button">Cari</a>
+  <div class="tile" id="tile-1">
+    <!-- Nav tabs -->
+    <ul class="nav nav-tabs nav-justified" role="tablist">
+      <div class="slider"></div>
+       <li class="nav-item">
+          <a class="nav-link active" id="semuah-tab" data-toggle="tab" href="#semuah" role="tab" aria-controls="semuah" aria-selected="true">Semuah</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="resep-tab" data-toggle="tab" href="#resep" role="tab" aria-controls="resep" aria-selected="false">Resep Menu Daging Sapi</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="pengolahan-tab" data-toggle="tab" href="#pengolahan" role="tab" aria-controls="pengolahan" aria-selected="false">Pengolahan Daging Sapi</a>
+        </li>
+      <li class="nav-item">
+          <a class="nav-link" id="ciriciri-tab" data-toggle="tab" href="#ciriciri" role="tab" aria-controls="ciriciri" aria-selected="false">Ciri-ciri Daging Sapi Terbaik</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="sate-tab" data-toggle="tab" href="#sate" role="tab" aria-controls="sate" aria-selected="false">Sate Sapi</a>
+        </li>
+    </ul>
+  
+    <!-- Tab panes -->
+    <div class="tab-content">
+      <div class="tab-pane fade show active" id="semuah" role="tabpanel" aria-labelledby="semuah-tab">Home</div>
+    <div class="tab-pane fade" id="resep" role="tabpanel" aria-labelledby="resep-tab">Profile</div>
+    <div class="tab-pane fade" id="pengolahan" role="tabpanel" aria-labelledby="pengolahan-tab">Contact</div>
+    <div class="tab-pane fade" id="ciriciri" role="tabpanel" aria-labelledby="ciriciri-tab">Settings</div>
+    <div class="tab-pane fade" id="sate" role="tabpanel" aria-labelledby="sate-tab">Settings</div>
+    </div>
   </div>
 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/js/bootstrap.min.js"></script>
+  <script>
+    $("#tile-1 .nav-tabs a").click(function() {
+      var position = $(this).parent().position();
+      var width = $(this).parent().width();
+        $("#tile-1 .slider").css({"left":+ position.left,"width":width});
+    });
+    var actWidth = $("#tile-1 .nav-tabs").find(".active").parent("li").width();
+    var actPosition = $("#tile-1 .nav-tabs .active").position();
+    $("#tile-1 .slider").css({"left":+ actPosition.left,"width": actWidth});
+  </script>
 </body>
 </html>

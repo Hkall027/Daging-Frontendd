@@ -12,6 +12,10 @@
 
     <!--=============== LINK FONT AWESOME ===============-->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel='stylesheet'>
+
+    <!--=============== LINK ONLINE TABS NAV ===============-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
     
     <!--========= LINK STYLE CSS =========-->
     <link rel="stylesheet" href="../assets/css/style.css">
@@ -21,6 +25,65 @@
     
     <!--========= JUDUL =========-->
     <title>Blog</title>
+
+    <style>
+
+
+
+      #tile-1 .tab-pane
+      {
+        padding:15px;
+        height:80px;
+      }
+      #tile-1 .nav-tabs
+      {
+        position:relative;
+        border:none!important;
+        background-color:#fff;
+        border-radius:6px;
+      }
+      #tile-1 .nav-tabs li
+      {
+        margin:0px!important;
+      }
+      #tile-1 .nav-tabs li a
+      {
+        position:relative;
+        margin-right:0px!important;
+        padding: 20px 10px!important;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        color: #B6B6B6;
+        border:none!important;
+      }
+      #tile-1 .nav-tabs a:hover
+      {
+        background-color:#fff!important;
+        border:none;
+      }
+      #tile-1 .slider
+      {
+        display:inline-block;
+        width:30px;
+        height:4px;
+        border-radius:3px;
+        background-color:#CE0000;
+        position:absolute;
+        z-index:1200;
+        bottom:0;
+        transition:all .4s linear;
+        
+      }
+      #tile-1 .nav-tabs .active
+      {
+        background-color:transparent!important;
+        border:none!important;
+        color:#CE0000!important;
+      }
+        </style>
+
   </head>
   <body>
     
@@ -67,10 +130,53 @@
                   <p class="heading-text-one-32 app-text-40 f-w-700">Punya <span class="app-error-0">Daging Segar</span> Tapi Bingung <br> Mau Bikin Menu Bagaimana ?</p>
                 </div>
               </div>
+              <div class="col-md-12 mb-2">
+                <div class="d-lg-flex">
+                  <form class="search-container">
+                    <input type="text" id="search-bar" class="mb-3" placeholder="Cari...">
+                    <a href="#"><img class="search-icon" src="../assets/images/produk/icon-produk-search.png"></a>
+                    <div class="grup-btn-pop text-center-responsive">
+                      <a href="" class="btn btn-pop" role="button">Cari</a>
+                    </div>
+                  </form>
+                </div>
+              </div>
+              <div class="col-md-12">
+                <div class="tile" id="tile-1">
+                  <!-- Nav tabs -->
+                  <ul class="nav nav-tabs nav-justified" role="tablist">
+                    <div class="slider"></div>
+                     <li class="nav-item">
+                        <a class="nav-link active" id="semuah-tab" data-toggle="tab" href="#semuah" role="tab" aria-controls="semuah" aria-selected="true">Semuah</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" id="resep-tab" data-toggle="tab" href="#resep" role="tab" aria-controls="resep" aria-selected="false">Resep Menu Daging Sapi</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" id="pengolahan-tab" data-toggle="tab" href="#pengolahan" role="tab" aria-controls="pengolahan" aria-selected="false">Pengolahan Daging Sapi</a>
+                      </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="ciriciri-tab" data-toggle="tab" href="#ciriciri" role="tab" aria-controls="ciriciri" aria-selected="false">Ciri-ciri Daging Sapi Terbaik</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" id="sate-tab" data-toggle="tab" href="#sate" role="tab" aria-controls="sate" aria-selected="false">Sate Sapi</a>
+                      </li>
+                  </ul>
+                
+                  <!-- Tab panes -->
+                  <div class="tab-content">
+                    <div class="tab-pane fade show active" id="semuah" role="tabpanel" aria-labelledby="semuah-tab"></div>
+                  <div class="tab-pane fade" id="resep" role="tabpanel" aria-labelledby="resep-tab"></div>
+                  <div class="tab-pane fade" id="pengolahan" role="tabpanel" aria-labelledby="pengolahan-tab"></div>
+                  <div class="tab-pane fade" id="ciriciri" role="tabpanel" aria-labelledby="ciriciri-tab"></div>
+                  <div class="tab-pane fade" id="sate" role="tabpanel" aria-labelledby="sate-tab"></div>
+                  </div>
+                </div>
+              </div>
               <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                <a href="../pages/blog-detail.html" class="text-decoration-none-card">
                 <div class="card-blog-daging">
                   <img src="../assets/images/blog/img-card-blog-1.png" class="img-card-blog" alt="">
-                  <a href="../pages/blog-detail.html" class="text-decoration-none-card">
                     <div class="card-body">
                       <div class="grup-text-card-blog">
                       <div class="d-lg-flex mb-2">
@@ -85,13 +191,13 @@
                       </div>
                     </div>
                   </div>
-                </a>
                 </div>
+                </a>
               </div>
               <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                <a href="../pages/blog-detail.html" class="text-decoration-none-card">
                 <div class="card-blog-daging">
                   <img src="../assets/images/blog/img-card-blog-2.png" class="img-card-blog" alt="">
-                  <a href="../pages/blog-detail.html" class="text-decoration-none-card">
                     <div class="card-body">
                       <div class="grup-text-card-blog">
                         <div class="d-lg-flex mb-2">
@@ -106,13 +212,13 @@
                         </div>
                       </div>
                     </div>
-                  </a>
-                </div>
+                  </div>
+                </a>
               </div>
               <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                <a href="../pages/blog-detail.html" class="text-decoration-none-card">
                 <div class="card-blog-daging">
                   <img src="../assets/images/blog/img-card-blog-3.png" class="img-card-blog" alt="">
-                  <a href="../pages/blog-detail.html" class="text-decoration-none-card">
                     <div class="card-body">
                       <div class="grup-text-card-blog">
                         <div class="d-lg-flex mb-2">
@@ -127,13 +233,13 @@
                         </div>
                       </div>
                     </div>
-                  </a>
-                </div>
+                  </div>
+                </a>
               </div>
               <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                <a href="../pages/blog-detail.html" class="text-decoration-none-card">
                 <div class="card-blog-daging">
                   <img src="../assets/images/blog/img-card-blog-2.png" class="img-card-blog" alt="">
-                  <a href="../pages/blog-detail.html" class="text-decoration-none-card">
                     <div class="card-body">
                       <div class="grup-text-card-blog">
                         <div class="d-lg-flex mb-2">
@@ -148,13 +254,13 @@
                         </div>
                       </div>
                     </div>
-                  </a>
-                </div>
+                  </div>
+                </a>
               </div>
               <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                <a href="../pages/blog-detail.html" class="text-decoration-none-card">
                 <div class="card-blog-daging">
                   <img src="../assets/images/blog/img-card-blog-4.png" class="img-card-blog" alt="">
-                  <a href="../pages/blog-detail.html" class="text-decoration-none-card">
                     <div class="card-body">
                       <div class="grup-text-card-blog">
                         <div class="d-lg-flex mb-2">
@@ -169,13 +275,13 @@
                       </div>
                     </div>
                   </div>
-                </a>
                 </div>
+                </a>
               </div>
               <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                <a href="../pages/blog-detail.html" class="text-decoration-none-card">
                 <div class="card-blog-daging">
                   <img src="../assets/images/blog/img-card-blog-3.png" class="img-card-blog" alt="">
-                  <a href="../pages/blog-detail.html" class="text-decoration-none-card">
                     <div class="card-body">
                       <div class="grup-text-card-blog">
                       <div class="d-lg-flex mb-2">
@@ -190,8 +296,8 @@
                       </div>
                     </div>
                   </div>
-                </a>
                 </div>
+              </a>
               </div>
               <div class="col-md-12" data-aos="fade-up">
                 <div class="grop-pagination">
@@ -237,7 +343,7 @@
           <div class="row">
               <div class="col-lg-1 col-sm-6 col-md-6">
                 <div class="">
-                  <img src="../assets/images/home/img-logo-footer.png" class="m-3" style="width: 59px;" alt="">
+                  <img src="../assets/images/home/img-logo-footer.png" class="m-3" style="width: 80px;" alt="">
                 </div>
             </div>
   
@@ -263,8 +369,8 @@
               <ul class="footer-links">
                 <li><a class="paragraph-text-two f-w-400 mb-2" href="https://api.whatsapp.com/send?phone=6289638233061">+62896 3823 3061</a></li>
                 <li><a class="paragraph-text-two f-w-400 mb-2" href="#">Mail : contact_gbeef@gmail.com</a></li>
-                <li><a class="paragraph-text-two f-w-400 mb-2" href="#">Lorem ipsum dolor</a></li>
-                <li><a class="paragraph-text-two f-w-400 mb-2" href="#">Lorem ipsum dolor</a></li>
+                <!-- <li><a class="paragraph-text-two f-w-400 mb-2" href="#">Lorem ipsum dolor</a></li>
+                <li><a class="paragraph-text-two f-w-400 mb-2" href="#">Lorem ipsum dolor</a></li> -->
               </ul>
             </div>
   
@@ -288,6 +394,8 @@
   </footer>
     <!--========== CLOSE FOOTER ==========-->
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/js/bootstrap.min.js"></script>
     <script src="../assets/js/navRoll.js"></script>
     <script src="../assets/js/navRollColor.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
@@ -295,5 +403,15 @@
     <script>
       AOS.init();
     </script>  
-</body>
+    <script>
+      $("#tile-1 .nav-tabs a").click(function() {
+        var position = $(this).parent().position();
+        var width = $(this).parent().width();
+          $("#tile-1 .slider").css({"left":+ position.left,"width":width});
+      });
+      var actWidth = $("#tile-1 .nav-tabs").find(".active").parent("li").width();
+      var actPosition = $("#tile-1 .nav-tabs .active").position();
+      $("#tile-1 .slider").css({"left":+ actPosition.left,"width": actWidth});
+    </script>
+  </body>
 </html>
